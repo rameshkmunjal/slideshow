@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const SlideshowPage=({slideNumber, slideshowBtnHandler})=>{ 
+    const baseURL=window.location.origin+'/slideshow';
     const data=DB;
     const [index , setIndex]=useState(slideNumber);
     const [currentSlide, setCurrentSlide]=useState(data[index]);
@@ -28,7 +29,7 @@ const SlideshowPage=({slideNumber, slideshowBtnHandler})=>{
                 <div className="slide-div">
                     <div className="slide" key={currentSlide.name}>
                     <div className="details-img-div">
-                        <img src={currentSlide.images.hero.large } alt={currentSlide.name} />                    
+                        <img src={baseURL + currentSlide.images.hero.large } alt={currentSlide.name} />                    
                     </div>
                     <div className="details-heading-div">
                         <h2>{currentSlide.name}</h2>

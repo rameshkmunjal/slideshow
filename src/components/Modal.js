@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react';
 
 export default function Modal({ data, index,  handleClose, updateSlideIndex }) {
+  const baseURL=window.location.origin+'/slideshow';
   const [indexPos, setIndexPos]=useState(index);
   let i=index;
   useEffect(() => {
@@ -25,7 +26,7 @@ export default function Modal({ data, index,  handleClose, updateSlideIndex }) {
         <button className="modal-close-btn" onClick={closeBtnHandler}>Close</button>
         <div>
           <img 
-            src={data[indexPos].images.hero.small} 
+            src={baseURL + data[indexPos].images.hero.small} 
             alt={data[indexPos].name} 
             onClick={()=>updateIndexHandler(indexPos)}
             />
