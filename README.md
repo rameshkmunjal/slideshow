@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Frontend Mentor - Galleria slideshow site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Design preview for the Galleria slideshow site coding challenge](./preview.jpg)
 
-## Available Scripts
+## Welcome! 👋
 
-In the project directory, you can run:
+Thanks for purchasing this premium Frontend Mentor coding challenge.
 
-### `npm start`
+[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects. These premium challenges are perfect portfolio pieces, so please feel free to use what you create in your portfolio to show others.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**To do this challenge, you need a strong understanding of HTML, CSS, and JavaScript.**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## The challenge
 
-### `npm test`
+Your challenge is to build out this art gallery slideshow site and get it looking as close to the design as possible.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-### `npm run build`
+If you choose to use a JS-heavy approach, we provide a local `data.json` file for the paintings. This means you'll be able to pull the data from there instead of using the separate `.html` files.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Your users should be able to:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Navigate the slideshow and view each painting in a lightbox
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
-### `npm run eject`
+## Where to find everything
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Your task is to build out the project to the design file provided. We provide both Sketch and Figma versions of the design, so you can choose which tool you prefer to use. You can download the design file on the platform. **Please be sure not to share them with anyone else.** The design download comes with a `README.md` file as well to help you get set up.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+All the required assets for this project are in the `/assets` folder. The assets are already exported for the correct screen size and optimized. Some images are reusable at multiple screen sizes. So if you don't see an image in a specific folder, it will typically be in another folder for that page.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The design system in the design file will give you more information about the various colors, fonts, and styles used in this project.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Screenshot
 
-## Learn More
+![](./assets/screenshot.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Links
 
-### Code Splitting
+- Solution URL: [Add solution URL here](https://github.com/rameshkmunjal/slideshow)
+- Live Site URL: [Add live site URL here](https://rameshkmunjal.github.io/slideshow/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## My process
 
-### Analyzing the Bundle Size
+### Built with
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Semantic HTML5 markup
+- CSS custom properties
+- ReactJs, Redux
 
-### Making a Progressive Web App
+### What I learned
+    - This project gave me a great programming practice in ReactJS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Continued development
 
-### Advanced Configuration
+    I hope to do such projects in future with greater efficiency  and clean code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### Useful resources
+    stackoverflow.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Author
 
-### `npm run build` fails to minify
+- Twitter - [@yourusername](https://www.twitter.com/tech_munjal)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
