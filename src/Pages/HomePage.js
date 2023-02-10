@@ -1,3 +1,4 @@
+import './HomePage.css';
 import DB from '../data.json';
 import {useState} from 'react';
 

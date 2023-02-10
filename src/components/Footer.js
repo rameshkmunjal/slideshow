@@ -1,3 +1,6 @@
+import './Footer.css';
+
+
 const Footer=({count, data, goToNextHandler, goToPreviousHandler })=>{
     console.log(count);
     function nxtClickHandler(){

@@ -1,0 +1,46 @@
+.imgDiv{
+  margin:15px;
+  position:relative;
+}
+
+.imgDiv:hover{
+  cursor:pointer;
+  transform:scale(1.1);
+}
+
+.container .imgDiv img{
+  width:100%;
+}
+
+.imageTitle{
+  color:var(--clr-white);
+  position:absolute;
+  bottom:40px;
+  left:1rem;
+  font-size:1.2rem;
+  font-weight:bold;
+}
+
+.imageArtist{
+  color:var(--clr-white);
+  position:absolute;
+  bottom:20px;
+  left:1rem;
+  font-size:0.8rem;
+  font-weight:400;
+}
+
+@media screen and (max-width: 992px) {
+  .imgDiv{
+    margin:15px 2%;
+    position:relative;
+    
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .imgDiv{
+    margin:15px 5%;
+    position:relative;    
+  }
+}

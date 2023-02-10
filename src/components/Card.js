@@ -1,3 +1,5 @@
+import './Card.css';
+
 const Card=({item, handleClick})=>{
     const baseURL=window.location.origin+'/slideshow';
     const clickHandler=(itemName)=>{

@@ -1,0 +1,33 @@
+/* details page footer : styling */
+.details-page-footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top:1px solid var(--clr-black);
+    border-bottom:1px solid var(--clr-black);
+  }
+  .footer-title-div{
+    display:flex;
+    flex-direction: column;
+    padding:1rem;
+  }
+  .footer-title{
+    font-size:0.9rem;
+    font-weight: bold;
+    margin-bottom:0.25rem;
+  }
+  .footer-artist{
+    font-size:0.75rem;
+    padding:0.5rem 0;
+    color:#777;
+  }
+  .footer-btn-div{
+    display:flex;
+  }
+  .footer-btn-div span{
+    margin: 0 1rem;
+  }
+  .footer-btn-div span:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+  }

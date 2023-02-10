@@ -1,3 +1,4 @@
+import './Modal.css';
 import {useState, useEffect} from 'react';
 
 export default function Modal({ data, index,  handleClose, updateSlideIndex }) {
